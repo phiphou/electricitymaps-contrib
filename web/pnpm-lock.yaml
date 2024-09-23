@@ -424,8 +424,8 @@ importers:
         specifier: 5.4.6
         version: 5.4.6(@types/node@20.16.5)(less@4.2.0)(terser@5.32.0)
       vite-plugin-pwa:
-        specifier: 0.20.2
-        version: 0.20.2(vite@5.4.6(@types/node@20.16.5)(less@4.2.0)(terser@5.32.0))(workbox-build@7.1.1(@types/babel__core@7.20.5))(workbox-window@7.1.0)
+        specifier: 0.20.5
+        version: 0.20.5(vite@5.4.6(@types/node@20.16.5)(less@4.2.0)(terser@5.32.0))(workbox-build@7.1.1(@types/babel__core@7.20.5))(workbox-window@7.1.0)
       vite-tsconfig-paths:
         specifier: 5.0.1
         version: 5.0.1(typescript@5.5.4)(vite@5.4.6(@types/node@20.16.5)(less@4.2.0)(terser@5.32.0))
@@ -8167,11 +8167,11 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite-plugin-pwa@0.20.2:
-    resolution: {integrity: sha512-9wLqHt/NjP7YKj6CCEKS5+Fhffo6tHGrAa+wvoqCG59oZkmpX5lBBl38MVjLaO4ELrLqjdtUhILJDwZu+q/hGQ==}
+  vite-plugin-pwa@0.20.5:
+    resolution: {integrity: sha512-aweuI/6G6n4C5Inn0vwHumElU/UEpNuO+9iZzwPZGTCH87TeZ6YFMrEY6ZUBQdIHHlhTsbMDryFARcSuOdsz9Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      '@vite-pwa/assets-generator': ^0.2.4
+      '@vite-pwa/assets-generator': ^0.2.6
       vite: ^3.1.0 || ^4.0.0 || ^5.0.0
       workbox-build: ^7.1.0
       workbox-window: ^7.1.0
@@ -18014,7 +18014,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-pwa@0.20.2(vite@5.4.6(@types/node@20.16.5)(less@4.2.0)(terser@5.32.0))(workbox-build@7.1.1(@types/babel__core@7.20.5))(workbox-window@7.1.0):
+  vite-plugin-pwa@0.20.5(vite@5.4.6(@types/node@20.16.5)(less@4.2.0)(terser@5.32.0))(workbox-build@7.1.1(@types/babel__core@7.20.5))(workbox-window@7.1.0):
     dependencies:
       debug: 4.3.6(supports-color@8.1.1)
       pretty-bytes: 6.1.1
